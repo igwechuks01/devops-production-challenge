@@ -1,5 +1,10 @@
-node_modules
-.env
-terraform.tfstate
-terraform.tfstate.backup
+node_modules/
 .terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+.env
+coverage/
+dist/
+build/
+*.log
