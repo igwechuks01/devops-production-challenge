@@ -3,13 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                echo 'Checking out source code...'
-                git 'https://github.com/igwechuks01/devops-production-challenge.git'
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
                 dir('app') {
